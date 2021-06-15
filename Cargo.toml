@@ -1,0 +1,13 @@
+[package]
+name = "min_map"
+version = "0.1.0"
+description = "Fixed-size hash map that remembers the minimum value per hash"
+repository = "https://github.com/pnotequalnp/min_map/"
+authors = ["Kevin Mullins <kevin@pnotequalnp.com>"]
+edition = "2018"
+license = "ISC"
+
+[dev-dependencies]
+rand = "0.8"
+quickcheck = "1"
+quickcheck_macros = "1"
